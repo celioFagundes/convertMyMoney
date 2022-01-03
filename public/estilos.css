@@ -1,0 +1,22 @@
+body{
+    text-align:center;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center
+  
+}
+h1 img {
+    width: 489px;
+
+}
+input {
+    padding:10px 20px;
+    margin:5px;
+}
+button{
+    padding:10px 20px;
+    background:#D8D8D8;
+}

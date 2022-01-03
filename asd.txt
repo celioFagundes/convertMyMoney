@@ -1,0 +1,23 @@
+/*test('getCotacao', () =>{
+
+    const res = {
+        data: {
+          value: [{ cotacaoVenda: 5.6432 }],
+        },
+      }
+    const getToday = jest.fn()
+    getToday.mockReturnValue('01-01-2019')
+    const getUrl = jest.fn()
+    getUrl.mockReturnValue('url')
+    const getCotacaoURL = jest.fn()
+    getCotacaoURL.mockResolvedValue(res)
+    const extractCotacao = jest.fn()
+    extractCotacao.mockReturnValue(5.6432)
+
+    apiBCB.pure
+    .getCotacao({getToday,getUrl,getCotacaoURL,extractCotacao})
+    .then(res => {
+        console.log(res)
+        //expect(res).toBe('as')
+    })
+})*/
